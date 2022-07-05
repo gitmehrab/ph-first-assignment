@@ -3,10 +3,68 @@
     padding:0;
     box-sizing: border-box;
 }
+/* multistyle start */
 body{
-    font-family: 'Nunito', sans-serif;
-
     font-family: 'Oswald', sans-serif;
-
-    font-family: 'Poppins', sans-serif;
+}
+.paragraph {
+	padding: 20px 0 41px 0;
+	color: #54545c;
+	font-size: 15px;
+}
+.pra_width {
+	width: 490px;
+}
+.btn {
+	text-decoration: none;
+	color: white;
+	background-color: #1448c2;
+	padding: 5px 20px;
+	border-radius: 11px;
+	margin: 23px;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+/* multistyle end */
+#header {
+	background-image: url("../img/donation/headertwo.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 82px 0;
+	background-size: cover;
+}
+.header_hedings{
+	color: #4540d7;
+	font-size: 49px;
+}
+.article_head {
+	width: 454px;
+	color: white;
+	padding: 18px 0 0 0;
+}
+#donate {
+	padding: 110px;
+}
+.box_donate {
+	display: flex;
+	gap: 43px;
+}
+.box {
+	background-color: #d7d7df;
+	padding: 40px;
+	color: white;
+}
+.box_two {
+	background-color: rgb(131, 171, 206);
+	border: 2px solid #595050;
+}
+.input {
+	color: #54545c;
+	border: none;
+	border-bottom: 1px solid #918b8b;
+	padding: 16px 232px;
+	margin: 54px 0 0 0;
 }
