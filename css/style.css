@@ -5,6 +5,7 @@
 }
 /* multistyle start */
 body{
+    /* google font */
     font-family: 'Oswald', sans-serif;
 }
 .paragraph {
@@ -67,4 +68,25 @@ body{
 	border-bottom: 1px solid #918b8b;
 	padding: 16px 232px;
 	margin: 54px 0 0 0;
+}
+.parrent_plan_box {
+	display: flex;
+	width: 80%;
+	gap: 56px;
+}
+.icon {
+	font-size: 30px;
+	padding: 68px 0 18px 0;
+}
+.plan_box {
+	padding: 0px 27px;
+}
+.p_b_color_one {
+	background-color: #d4dee8;
+}
+.p_b_color_two {
+	background-color: #ca75aa;
+}
+.p_b_color_three {
+	background-color: #d5c895;
 }
