@@ -21,8 +21,8 @@ body{
 	color: white;
 	background-color: #1448c2;
 	padding: 5px 20px;
-	border-radius: 11px;
-	margin: 23px;
+	border-radius: 3px;
+	margin: 23px 0;
 }
 .content {
 	display: flex;
@@ -89,4 +89,24 @@ body{
 }
 .p_b_color_three {
 	background-color: #d5c895;
+}
+#my_update {
+	padding: 110px 0;
+}
+.subscribe {
+	background-color: #dfbdbd;
+	padding: 50px 107px;
+	display: flex;
+}
+.feild_padding {
+	height: 35px;
+	margin-top: 23px;
+	border: none;
+	padding: 0 16px;
+}
+#footer {
+	background-color: black;
+	color: white;
+	padding: 29px 0;
+	line-height: 41px;
 }
